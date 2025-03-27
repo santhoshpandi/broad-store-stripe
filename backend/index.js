@@ -33,5 +33,6 @@ app.get('/cancel', (req, res) => {
     res.redirect('/')
 })
 
+const port = process.env.PORT
 // Start the server on port 8000
-app.listen(8000, () => console.log('server started'))
+app.listen(port, () => console.log('server listening at port:',port))
