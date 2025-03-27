@@ -1,12 +1,9 @@
-// Import Stripe library with secret key
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 
-// Import the info model for database interaction
 const infomodel = require('../model/infoModel')
 
 // Function to store payment information in the database
 async function storedb(ss) {
-    console.log(ss)
     await infomodel.create(ss)
         .then(users => console.log("Data created Successfully"))
         .catch(err => console.log(err.message))
@@ -15,7 +12,6 @@ async function storedb(ss) {
 // Function to handle checkout process
 async function checkout(req, res) {
     const list = req.body
-    // console.log(list)
 
     // Create a Stripe checkout session
     const session = await stripe.checkout.sessions.create({
@@ -42,7 +38,6 @@ async function complete(req, res) {
         stripe.checkout.sessions.listLineItems(req.query.session_id)
     ]);
     const response2 = await result;
-    // console.log(response2[0].collected_information.shipping_details.name);
 
     // Extract necessary information from the response
     const { name } = response2[0].collected_information.shipping_details;
@@ -76,5 +71,4 @@ async function complete(req, res) {
     `);
 }
 
-// Export the controller functions
 module.exports = { checkout, complete }

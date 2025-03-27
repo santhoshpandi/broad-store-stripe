@@ -4,7 +4,7 @@ This application is a MERN stack project (`MongoDB`, `Express`, `React`, `Node.j
 
 ## Developed by
 
-- <a href='https://github.com/santhoshpandi'>`Santhosh Pandi`</a>,
+- <a href='https://github.com/santhoshpandi'>`Santhosh Pandi`</a> &
  <a href='https://github.com/madheshgavinesh'> `Madhesh`</a>
 
 ## Screenshots
