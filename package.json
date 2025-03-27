@@ -1,0 +1,40 @@
+{
+  "name": "bookstore-stripe",
+  "version": "1.0.0",
+  "description": "This application is a MERN stack project (MongoDB, Express, React, Node.js) integrated with Stripe for handling payments. It's designed to enable users to complete transactions securely through Stripe's payment gateway.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+   "installs": "concurrently \"npm install --prefix backend\" \"npm install --prefix frontend\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshpandi/broad-store-stripe.git"
+  },
+  "keywords": [
+    "react",
+    "mern",
+    "mongoDB",
+    "node",
+    "express",
+    "css",
+    "html",
+    "babel",
+    "vite",
+    "payment",
+    "stripe",
+    "easy",
+    "beginner",
+    "broad-store"
+  ],
+  "author": "Santhosh Pandi K, Madhesh K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshpandi/broad-store-stripe/issues"
+  },
+  "homepage": "https://github.com/santhoshpandi/broad-store-stripe#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -11,7 +11,7 @@ export default function Header({list}) {
         // Check if the list is not empty
         if([...list].length!=0){
             // Make a POST request to the server with the list of items
-            await axios.post('http://localhost:8000/checkout',list).then(res=>window.location.href=res.data.url)
+            await axios.post(`${import.meta.env.VITE_APP_API_URI}/checkout`,list).then(res=>window.location.href=res.data.url)
             .catch(err=>console.log(err.message))
         }
         else{
