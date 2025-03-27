@@ -1,13 +1,11 @@
-
-
-
 # Broad Store 🅱 - Stripe
 
 This application is a MERN stack project (`MongoDB`, `Express`, `React`, `Node.js`) integrated with `Stripe` for handling payments. It's designed to enable users to complete transactions securely through Stripe's payment gateway.
 
 ## Developed by
 
-- `Santhosh Pandi`, `Madhesh` 
+- <a href='https://github.com/santhoshpandi'>`Santhosh Pandi`</a>,
+ <a href='https://github.com/madheshgavinesh'> `Madhesh`</a>
 
 ## Screenshots
 
