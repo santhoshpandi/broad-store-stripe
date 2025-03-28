@@ -8,7 +8,13 @@ This application is a MERN stack project (`MongoDB`, `Express`, `React`, `Node.j
  <a href='https://github.com/madheshgavinesh'> `Madhesh`</a>
 
 ## Screenshots
+<img src="https://github.com/user-attachments/assets/e9b0222f-06b9-4a31-a07a-cb1bbe496d58" alt="" >
+<img src="https://github.com/user-attachments/assets/0b9212f5-f355-4271-a6e0-a4107fec241e" alt="" >
+<img src="https://github.com/user-attachments/assets/6d0c16ed-b06f-44c1-8709-62566fb26da0" alt="" >
 
+
+<img height="" src="https://github.com/user-attachments/assets/805e192a-9806-4fdf-9b7f-0734fe01fcc0" alt="mobile image" height="400" width="200" > &nbsp;
+<img src="https://github.com/user-attachments/assets/607498ab-1860-4e1c-81f4-9f58efde6c2f" alt="mobile image" height="400" width="200" >
 
 ## Features
 - **Home Page**: 
@@ -53,7 +59,6 @@ These features provide a seamless and secure user experience, allowing users to 
   - Node.js
   - Express.js
   - MongoDB
-  - JSON Web Tokens (JWT) for authentication
 
 ## Getting Started
 
